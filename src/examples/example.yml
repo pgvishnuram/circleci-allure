@@ -3,7 +3,7 @@ description: >
 usage:
   version: 2.1
   orbs:
-    allure: pgvishnuram/allure@@x.y
+    allure: pgvishnuram/allure@0.0.5
   jobs:
     install-allure-example:
       docker:
@@ -15,4 +15,4 @@ usage:
   workflows:
     setup-orb:
       jobs:
-        - install-allure-example
+        - install-allure
