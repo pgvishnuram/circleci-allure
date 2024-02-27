@@ -3,14 +3,18 @@ description: >
 usage:
   version: 2.1
   orbs:
-    allure: pgvishnuram/allure@0.0.5
+    allure: pgvishnuram/allure@0.0.6
   jobs:
-    install-allure-example:
+    install-allure:
       docker:
         - image: cimg/base:stable
       steps:
       - allure/install:
            version: 2.13.1
+      - run:
+          name: Check install
+          command: |
+            allure --version
 
   workflows:
     setup-orb:
