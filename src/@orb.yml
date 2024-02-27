@@ -1,5 +1,10 @@
-version: '2.1'
+version: 2.1
 description: Orb providing support for [Allure Framework](https://github.com/allure-framework/allure2)
+
+display:
+  home_url: "https://docs.astronomer.io"
+  source_url: "https://github.com/pgvishnuram/circleci-allure"
+
 commands:
   install:
     description: Installs Allure Framework and registers it as /usr/local/bin/allure

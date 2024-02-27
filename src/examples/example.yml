@@ -1,0 +1,18 @@
+description: >
+  Download and install any version of Allure and auto generate reports by default.
+usage:
+  version: 2.1
+  orbs:
+    allure: pgvishnuram/allure@@x.y
+  jobs:
+    install-allure-example:
+      docker:
+        - image: cimg/base:stable
+      steps:
+      - allure/install:
+           version: 2.13.1
+
+  workflows:
+    setup-orb:
+      jobs:
+        - install-allure-example
