@@ -1,13 +1,18 @@
 description: >
-  Sample example description.
-# Provide a use-case based example for using this orb.
-# Everything in the `usage` section will be displayed in the orb registry.
-# Comments are not retained.
+  Download and install any version of Allure and auto generate reports by default.
 usage:
   version: 2.1
   orbs:
-    allure: pgvishnuram/allure@1.2.3
+    allure: pgvishnuram/allure@@x.y
+  jobs:
+    install-allure-example:
+      docker:
+        - image: cimg/base:stable
+      steps:
+      - allure/install:
+           version: 2.13.1
+
   workflows:
-    use-my-orb:
+    setup-orb:
       jobs:
-        - allure/install
+        - install-allure-example
