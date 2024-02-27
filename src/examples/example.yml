@@ -10,5 +10,4 @@ usage:
   workflows:
     use-my-orb:
       jobs:
-        - allure/install:
-          version: 2.15.0
+        - allure/install
