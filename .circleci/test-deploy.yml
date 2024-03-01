@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
   orb-tools: circleci/orb-tools@12.1.0
-  allure: {}
+  allure: pgvishnuram/allure@0.0.7
 
 
 filters: &filters
