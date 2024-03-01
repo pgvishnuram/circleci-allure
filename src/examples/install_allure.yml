@@ -10,7 +10,7 @@ usage:
         - image: cimg/base:stable
       steps:
       - allure/install:
-           version: 2.13.1
+           version: 2.15.0
       - run:
           name: Check install
           command: |
