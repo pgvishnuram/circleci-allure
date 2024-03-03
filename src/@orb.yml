@@ -53,6 +53,7 @@ commands:
               --config << parameters.configuration-path >> \
               --report-dir << parameters.target-path >> \
               << parameters.results-path >>
+          when: always
       - store_artifacts:
           path: << parameters.target-path >>
           destination: << parameters.artifact-path >>
