@@ -1,7 +1,7 @@
 # Allure Orb Template
 
 
-[![CircleCI Build Status](https://circleci.com/gh/pgvishnuram/circleci-allure.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/pgvishnuram/allure) [![CircleCI Orb Version](https://badges.circleci.com/orbs/pgvishnuram/allure.svg)](https://circleci.com/developer/orbs/orb/pgvishnuram/circleci-allure) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/pgvishnuram/circleci-allure/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
+[![CircleCI Build Status](https://circleci.com/gh/pgvishnuram/circleci-allure.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/pgvishnuram/allure) [![CircleCI Orb Version](https://badges.circleci.com/orbs/pgvishnuram/allure.svg)](https://circleci.com/developer/orbs/orb/pgvishnuram/allure) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/pgvishnuram/circleci-allure/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
 
 Installs allure tools to allow users to quickly generate template and store in circleci reports 
